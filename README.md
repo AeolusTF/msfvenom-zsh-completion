@@ -21,7 +21,7 @@ source ~/.zshrc
 # Open the ~/.zshrc file and add it at the bottom, as shown below
 
 fpath=(~/.zsh/completion $fpath)
-autoload -Uz compinit && compinit -u
+autoload -Uz compinit && compinit -i
 ```
 
 If you get stuck into troubles when using it, run `compinit` to reinitialize the zsh completion environment, reference [here](https://github.com/andsens/homeshick/issues/89).
